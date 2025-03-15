@@ -7,11 +7,11 @@ int max_of_four(int a, int b, int c, int d)
     {
         ans = a;
     }
-    else if (b > a && b > c && b > d)
+    else if (b > c && b > d)
     {
         ans = b;
     }
-    else if (c > a && c > b && c > d)
+    else if (c > d)
     {
         ans = c;
     }
